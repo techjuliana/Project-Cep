@@ -4,8 +4,7 @@ import api from "../../services/api";
 import { Container } from "./styled";
 
 export const Home = () => {
-    const logoImg =
-  "https://developers.google.com/maps/images/docs-landing-get-started-hero_480.png?hl=pt-br";
+    const logoImg = "https://developers.google.com/maps/images/docs-landing-get-started-hero_480.png?hl=pt-br";
     const [input, setInput]=useState('');
     const [cep, setCep]=useState({});
 
@@ -21,9 +20,11 @@ try{
     const response = await api.get(`${input}/json`);
     setCep(response.data)
     setInput("");
+
 }catch{
-    alert("Esse Cep não é ");
+    alert("Esse Cep não é valido ;( ");
     setInput("")
+   }
 }
 
   return (
@@ -35,24 +36,26 @@ try{
       <div className="containerInput">
         <input
         type="text" 
-        placeholder="Digite o Cep..." 
+        placeholder="Digite o cep..." 
         value={input}
         onChange={(e)=> setInput(e.target.value)}
         />
         
-        <button> 
+        <button onClick={handleSearch}> 
           <FiSearch size={20} color="#fff" />
         </button>
       </div>
 
-      <div className="main" >
-        <h2>Resultado da busca, pelo CEP:</h2>
-        <span>Rua:</span>
-        <span>Complemento:</span>
-        <span>Bairro:</span>
-        <span>Cidade:</span>
+      {Object.keys(cep).length > 0 && (
+        <div className="main" >
+        <h2>Informações encontradas</h2>
+        <span>{cep.cep}</span>
+        <span>Rua: {cep.logradouro}</span>
+        <span>{cep.complemento}</span>
+        <span>Bairro: {cep.bairro}</span>
+        <span>{cep.localidade} - {cep.uf}</span>
         </div>
-
+      )}
     </Container>
   );
 };

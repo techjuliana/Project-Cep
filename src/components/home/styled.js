@@ -46,11 +46,11 @@ export const Container = styled.div`
     width: 75%;
     border-radius: 10px;
     h2 {
-      margin: 16px 0;
+      margin: 5px 0;
       font-size: 20px;
     }
     span {
-      margin-bottom: 16px;
+      margin-bottom: 9px;
     }
   }
 `;
