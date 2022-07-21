@@ -10,7 +10,7 @@ React JS e Styled components
 
 Você pode ver o projeto através do link abaixo :)
 
-<a href="https://crudfinanca.netlify.app" target="" alt="">Clique aqui</a>
+<a href="https://ceptech.netlify.app/" target="" alt="">Clique aqui</a>
 
 ---
 ## Tech Juliana
