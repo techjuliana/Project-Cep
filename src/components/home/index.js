@@ -50,7 +50,7 @@ try{
         <div className="main" >
         <h2>Informações encontradas</h2>
         <span>{cep.cep}</span>
-        <span>Rua: {cep.logradouro}</span>
+        <span>{cep.logradouro}</span>
         <span>{cep.complemento}</span>
         <span>Bairro: {cep.bairro}</span>
         <span>{cep.localidade} - {cep.uf}</span>
