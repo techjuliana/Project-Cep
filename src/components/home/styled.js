@@ -8,6 +8,7 @@ export const Container = styled.div`
   flex-direction: column;
   h1{
     margin-top:4rem;
+    color:var(--white);
   }
   
   div.containerInput {

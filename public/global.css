@@ -11,8 +11,8 @@
 }
 
 body {
-  background: var(--white);
-
+  background: var(--black);
+  
   font-family: "Mulish";
   font-style: normal;
   font-weight: 400;
