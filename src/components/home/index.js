@@ -4,7 +4,7 @@ import api from "../../services/api";
 import { Container } from "./styled";
 
 export const Home = () => {
-    const logoImg = "https://developers.google.com/maps/images/docs-landing-get-started-hero_480.png?hl=pt-br";
+    const logoImg = "https://www.gstatic.com/images/branding/product/2x/maps_64dp.png";
     const [input, setInput]=useState('');
     const [cep, setCep]=useState({});
 
@@ -22,7 +22,7 @@ try{
     setInput("");
 
 }catch{
-    alert("Esse Cep não é valido ;( ");
+    alert("Esse Cep não é valido :( ");
     setInput("")
    }
 }

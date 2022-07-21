@@ -6,7 +6,10 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
+  h1{
+    margin-top:4rem;
+  }
+  
   div.containerInput {
     background-color: #1e90ff;
     padding: 15px;
