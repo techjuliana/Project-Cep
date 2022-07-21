@@ -1,17 +1,16 @@
 <h1 align="center">
- Aplicação CEP
+ Buscador de CEP + UseState, API, Axios.
 </h1>
 
 ## Tech
 
 React JS e Styled components
 
-## 🔔 Started
+## Started 🔔 
 
-Você pode ver o projeto através do link abaixo.
+Você pode ver o projeto através do link abaixo :)
 
-<a href="https://crudfinanca.netlify.app" target="" alt="">Clique aqui</a>
-<!-- `https://crudfinanca.netlify.app` -->
+<a href="https://ceptech.netlify.app/" target="" alt="">Clique aqui</a>
 
 ---
 ## Tech Juliana
