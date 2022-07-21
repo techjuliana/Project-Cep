@@ -31,7 +31,7 @@ try{
     <Container>
       <img alt="map" src={logoImg} className="navbar-img" />
 
-      <h1>Buscador de endereço</h1>
+      <h1>Buscador de CEP</h1>
 
       <div className="containerInput">
         <input
