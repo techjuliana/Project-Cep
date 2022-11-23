@@ -1,10 +1,14 @@
 <h1 align="center">
- Buscador de CEP + UseState, API, Axios.
+ Buscador de CEP em ReactJS e Styled Components + UseState, API, Axios.
 </h1>
 
-## Tech
 
-React JS e Styled components
+<hr>
+
+### Projeto Design ⬇️
+![image](https://raw.githubusercontent.com/techjuliana/API-paises/main/design/Captura%20de%20ecr%C3%A3%202022-11-23%2C%20%C3%A0s%2011.45.55%20AM.png)
+
+
 
 ## Started 🔔 
 
